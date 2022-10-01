@@ -1,0 +1,23 @@
+<!--..codeauthor:: Muthukumar Subramanian-->
+<!--HTML page design-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+    <link rel=\"icon\" href=\"data:,\">
+        <style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}
+        .button1 {width: 150px; transition-duration: 0.4s; background-color: #00cf00; border: 2px solid #4caf50; border-radius: 8px; color: white; padding: 16px 40px; text-align: center; text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}
+        .button1:hover {color: white; background-color: #25ff46; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+        .button2 {width: 150px; transition-duration: 0.4s; background-color: #0000ff; border: 2px solid #008cba; border-radius: 8px; color: white; padding: 16px 40px; text-align: center; text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}
+        .button2:hover {color: white; background-color: #00b4f4; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+</style>
+    </head>
+    <body><h1>Muthu ESP32 Web Server</h1>
+<!--    <p>GPIO 26 - State " + output26State + "</p>"-->
+    <p><a href=http://localhost:63342/26/on><button class=button1>ON</button></a></p>
+    <p><a href=http://localhost:63342/26/off><button class=button2>OFF</button></a></p>
+<!--    <p>GPIO 33 - State " + output33State + "</p>"-->
+    <p><a href=http://localhost:63342/33/on><button class=button1>ON</button></a></p>
+    <p><a href=http://localhost:63342/33/off><button class=button2>OFF</button></a></p>
+    </body>
+</html>
