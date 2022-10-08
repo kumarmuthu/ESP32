@@ -51,6 +51,24 @@ void setup() {
   Serial.begin(115200);
   /***** myservo26.attach(servopin26); - Static port declare(Skipped) *****/
   /***** myservo33.attach(servopin33); - Static port declare(Skipped) *****/
+  
+  /***** Set your Static IP address *****/
+  IPAddress local_IP(192, 168, 1, 5);
+  /***** Set your Gateway IP address *****/
+  IPAddress gateway(192, 168, 1, 1);
+  IPAddress subnet(255, 255, 0, 0);
+  /***** DNS is optional *****/
+  IPAddress primaryDNS(8, 8, 8, 8);
+  IPAddress secondaryDNS(8, 8, 4, 4);
+
+  /***** Configure the static IP-address *****/
+  if (!WiFi.config(local_IP, gateway, subnet, primaryDNS, secondaryDNS)) {
+    Serial.println("STA Failed to configure!...");
+  }
+  else{
+    Serial.println("Successfully configured the static ip-address...");
+  }
+
   /***** Connect to Wi-Fi network with SSID and password *****/
   Serial.println("WiFi Connecting to: " + String(ssid));
   WiFi.begin(ssid, password);
