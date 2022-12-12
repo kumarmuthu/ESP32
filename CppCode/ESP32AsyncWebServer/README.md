@@ -15,8 +15,8 @@ Accomplished ESP32 Async WebServer With Website's Goals.
 2. Supported mobile views and desktop views for the webserver access.
 3. We can access the device with a hotspot when it's in offline mode.
 4. Wi-Fi manager config support, We can update the SSID, password, IP and gateway after code freeze(hard coded), with help of a hotspot.
-  * 4.1 ESP32 code has default Wi-Fi credentials(hard coded in ino), custom Wi-Fi configuration(SPIFFS, it's a file system support). SPIFFS file will update when we change the SSID password from the Wi-Fi manager page.**
-  * 4.2 Launch the hotspot if default and custom Wi-Fi credentials fail.**
+  * 4.1 ESP32 code has default Wi-Fi credentials(hard coded in ino), custom Wi-Fi configuration(SPIFFS, it's a file system support). SPIFFS file will update when we change the SSID password from the Wi-Fi manager page.
+  * 4.2 Launch the hotspot if default and custom Wi-Fi credentials fail.
 5. We can restart the esp32 device through the URL.
 6. With the internet, the login field of username and password is validated with Google Firebase database credentials.
 7. Without the internet, possible to login hard-coded values with hotspot support.
