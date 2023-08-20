@@ -2,7 +2,7 @@
 __version__ = '2022.09.24.01'
 __author__ = 'Muthukumar Subramanian'
 WebServerWithServoMotorControl powered by Wifi, C++
-ESP32-WROM-DA Module support code
+ESP32-WROOM-DA Module support code
 GitHub: https://github.com/kumarmuthu
 *********************************************/
 /***** Load Wi-Fi library *****/

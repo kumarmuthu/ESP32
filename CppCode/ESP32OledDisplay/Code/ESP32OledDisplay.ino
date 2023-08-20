@@ -2,7 +2,7 @@
   __version__ = '2023.08.18.01'
   __author__ = 'Muthukumar Subramanian'
   OLED Display Basics
-  ESP32-WROM-DA Module support code
+  ESP32-WROOM-DA Module support code
   GitHub: https://github.com/kumarmuthu/ESP32
 *********************************************/
 #include <SPI.h>

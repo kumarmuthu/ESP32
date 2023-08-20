@@ -2,7 +2,7 @@
   __version__ = '2022.12.03.01'
   __author__ = 'Muthukumar Subramanian'
   WebServer With Lightweight Website
-  ESP32-WROM-DA Module support code
+  ESP32-WROOM-DA Module support code
   GitHub: https://github.com/kumarmuthu/ESP32
 *********************************************/
 /***** Load Wi-Fi library *****/
